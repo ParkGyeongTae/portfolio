@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   {{ $portfolioStyle := resources.Get "css/portfolio.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $portfolioStyle.RelPermalink }}">
+  {{ if not .IsHome }}
+    {{ $resumeStyle := resources.Get "css/resume.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $resumeStyle.RelPermalink }}">
+  {{ end }}
 </head>
 <body>
   <header class="site-header">

@@ -1,0 +1,10 @@
+{{ define "main" }}
+<article class="resume-page section-shell">
+  <div class="resume-intro">
+    <div class="section-label">DETAILED RESUME</div>
+    <h1>{{ .Title }}</h1>
+    <a class="text-link" href="{{ "" | relURL }}">← 포트폴리오로 돌아가기</a>
+  </div>
+  <div class="resume-content">{{ .Content }}</div>
+</article>
+{{ end }}
