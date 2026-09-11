@@ -30,17 +30,7 @@ MAU 1,500만 규모의 TMAP 주행 데이터 파이프라인 설계 및 최적�
 | 2025.02 ~ 현재 | Data Analytics Engineer | 티맵모빌리티 |
 | 2023.10 ~ 2025.02 | Data Engineer | 펫프렌즈 |
 | 2021.06 ~ 2023.10 | Data Engineer | 카테노이드 |
-
-## 기술 스택
-
-- **Languages:** Python, SQL, Scala
-- **Data Processing:** Apache Spark, Apache Kafka
-- **Orchestration:** Apache Airflow, AWS MWAA
-- **Platform:** Databricks, Apache Zeppelin
-- **Cloud / Infra:** AWS (EMR, DMS, S3, MWAA), Docker, Kubernetes, Terraform
-- **Governance:** DataHub
-- **Database:** MySQL, Redis, Elasticsearch, NoSQL
-- **Others:** FastAPI, ELK Stack, Tableau
+| 2017.11 ~ 2020.11 | Field Service Engineer (데이터 직무 외) | 한국오츠카전자 |
 
 ## 경력
 
@@ -174,12 +164,12 @@ PV+ESS의 개인 가정의 전력사용 예측을 통한 효율적 사용 방안
 - 15년치 시계열 데이터를 활용한 예측 모델 개발 및 서빙
 - 딥러닝 기반 영상 객체 탐지·추적 및 이상행동 실시간 알림 시스템 구축
 
-### 한국오츠카전자 · 기술부 / 광학 하드웨어 엔지니어
+### 한국오츠카전자 · 기술부 / 설비 엔지니어
 
 `2017.11 ~ 2020.11 · 3년`
 
-- 디스플레이용 분광측정기·막두께 측정 시스템의 설치·운영·유지보수 담당
-- 광학 샘플(Glass, Wafer 등)의 측정 데이터 수집·분석 및 보고서 작성
+- LG디스플레이·삼성디스플레이 사업장에 상주하며 디스플레이용 분광측정기·막두께 측정 시스템의 설치·유지보수 담당
+- 디스플레이 패널·반도체 샘플(Glass, Wafer 등)의 광학 측정 데이터 수집·분석 및 보고서 작성
 
 ## AI 활용 경험
 
