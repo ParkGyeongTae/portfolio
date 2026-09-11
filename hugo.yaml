@@ -1,7 +1,6 @@
 baseURL: "https://parkgyeongtae.github.io/portfolio/"
 languageCode: "ko-kr"
 title: "박경태 | 개발자 포트폴리오"
-theme: ""
 enableRobotsTXT: true
 
 params:
