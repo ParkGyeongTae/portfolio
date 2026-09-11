@@ -1,65 +1,30 @@
 ---
 title: "박경태"
-description: "깔끔하고 안정적인 소프트웨어를 만드는 개발자"
+description: "데이터 인프라를 설계하고, 데이터를 비즈니스 인사이트로 연결하는 Data Analytics Engineer입니다."
 ---
 
 <section class="hero section-shell">
-  <div class="eyebrow">DEVELOPER PORTFOLIO</div>
-  <h1>문제를 구조화하고,<br><span>좋은 제품</span>으로 완성합니다.</h1>
-  <p class="hero-copy">안녕하세요. 박경태입니다. 복잡한 문제를 단순하게 풀고, 사용자가 신뢰할 수 있는 서비스를 만드는 개발자입니다.</p>
-  <div class="hero-actions">
-    <a class="button button-primary" href="#projects">프로젝트 보기 <span>↗</span></a>
-    <a class="button button-quiet" href="#contact">연락하기</a>
-  </div>
-  <div class="hero-meta">
-    <span><i class="status-dot"></i> 새로운 기회를 찾고 있습니다</span>
-    <span>Seoul, Korea</span>
-  </div>
+  <div class="eyebrow">DATA ANALYTICS ENGINEER · SEOUL</div>
+  <h1>데이터의 흐름을 설계하고,<br><span>의사결정</span>을 연결합니다.</h1>
+  <p class="hero-copy">안녕하세요. 박경태입니다. Data Engineer로 커리어를 시작해 대용량 배치·파이프라인 설계와 온프레미스·클라우드 인프라 구축 역량을 쌓았고, 현재는 TMAP에서 데이터를 비즈니스 인사이트와 의사결정으로 연결하고 있습니다.</p>
+  <div class="hero-actions"><a class="button button-primary" href="#experience">경력 살펴보기 <span>↗</span></a><a class="button button-quiet" href="mailto:pgt0409@gmail.com">연락하기</a></div>
+  <div class="hero-meta"><span><i class="status-dot"></i> TMAP · Data Analytics Engineer</span><span>5년 4개월의 데이터 엔지니어링 경험</span></div>
 </section>
 
-<section id="about" class="section-shell content-section">
-  <div class="section-label">01 / ABOUT</div>
-  <div class="two-column">
-    <h2>좋은 코드는<br>좋은 질문에서<br>시작됩니다.</h2>
-    <div class="section-text">
-      <p>무엇을 만들지보다 왜 만드는지를 먼저 고민합니다. 요구사항의 본질을 찾고, 팀과 명확하게 소통하며, 작은 단위로 검증하는 과정을 중요하게 생각합니다.</p>
-      <p>새로운 기술을 빠르게 익히되 기술 자체보다 제품과 사용자에게 어떤 가치를 주는지에 집중합니다.</p>
-      <div class="skill-list">
-        <span>Problem Solving</span><span>Web Development</span><span>Collaboration</span><span>Continuous Learning</span>
-      </div>
-    </div>
-  </div>
-</section>
+<section id="about" class="section-shell content-section"><div class="section-label">01 / PROFILE</div><div class="two-column"><h2>데이터 인프라의<br>Full Lifecycle을<br>경험했습니다.</h2><div class="section-text"><p>MAU 1,500만 규모의 TMAP 주행 데이터 파이프라인 설계 및 최적화부터 메달리온 아키텍처 기반 데이터 플랫폼 구축까지, 데이터가 수집되고 가공되어 실제 의사결정에 쓰이기까지의 전 과정을 경험했습니다.</p><p>성능과 안정성뿐 아니라 데이터 품질, 리니지, 개발 생산성까지 함께 고민합니다. Apache Zeppelin Committer로서 실사용 환경에서 발견한 문제를 글로벌 오픈소스에 지속적으로 기여하고 있습니다.</p><div class="skill-list"><span>Data Platform</span><span>Batch & Streaming</span><span>Cloud Infrastructure</span><span>Open Source</span></div></div></div></section>
 
-<section id="projects" class="section-shell content-section">
-  <div class="section-label">02 / PROJECTS</div>
-  <div class="section-heading-row"><h2>주요 프로젝트</h2><p>문제를 발견하고, 해결하고, 배운 것들</p></div>
-  <div class="project-grid">
-    <article class="project-card project-featured">
-      <div class="project-number">01</div>
-      <div><div class="project-type">PROJECT · 2024</div><h3>프로젝트 제목을 입력하세요</h3><p>프로젝트가 해결한 문제와 핵심 결과를 한두 문장으로 소개해주세요. 이 문장은 프로젝트 상세 페이지의 요약으로도 사용됩니다.</p><div class="tag-list"><span>JavaScript</span><span>React</span><span>Node.js</span></div><a class="text-link" href="#contact">자세히 보기 <span>↗</span></a></div>
-    </article>
-    <article class="project-card">
-      <div class="project-number">02</div>
-      <div><div class="project-type">PROJECT · 2023</div><h3>두 번째 프로젝트 제목</h3><p>담당한 역할과 기술적 의사결정, 프로젝트를 통해 만들어낸 변화를 기록합니다.</p><div class="tag-list"><span>TypeScript</span><span>Next.js</span></div><a class="text-link" href="#contact">자세히 보기 <span>↗</span></a></div>
-    </article>
-    <article class="project-card">
-      <div class="project-number">03</div>
-      <div><div class="project-type">SIDE PROJECT · 2023</div><h3>사이드 프로젝트 제목</h3><p>관심 있는 문제를 직접 정의하고 끝까지 구현한 사이드 프로젝트입니다.</p><div class="tag-list"><span>Python</span><span>FastAPI</span></div><a class="text-link" href="#contact">자세히 보기 <span>↗</span></a></div>
-    </article>
-  </div>
-</section>
+<section id="achievements" class="section-shell content-section"><div class="section-label">02 / KEY ACHIEVEMENTS</div><div class="section-heading-row"><h2>숫자로 보는 성과</h2><p>문제를 발견하고 구조적으로 개선한 결과</p></div><div class="metric-grid"><div class="metric-card"><strong>80<span>%</span></strong><p>대용량 배치 처리 시간 단축<br><b>5시간 → 1시간</b></p></div><div class="metric-card"><strong>50<span>%</span></strong><p>표준 템플릿 도입 후<br>신규 파이프라인 개발 시간 단축</p></div><div class="metric-card"><strong>1,500<span>만</span></strong><p>TMAP 월간 활성 사용자 규모<br>주행 데이터 플랫폼 운영</p></div><div class="metric-card"><strong>25<span>+</span></strong><p>Apache Zeppelin 병합 PR<br>글로벌 오픈소스 기여</p></div></div></section>
 
-<section id="experience" class="section-shell content-section">
-  <div class="section-label">03 / EXPERIENCE</div>
-  <div class="section-heading-row"><h2>경력과 경험</h2><p>성장해온 과정과 앞으로의 방향</p></div>
-  <div class="timeline">
-    <div class="timeline-item"><div class="timeline-date">2024 — PRESENT</div><div><h3>회사명 · 직무</h3><p>담당 업무와 주요 성과를 입력하세요.</p></div></div>
-    <div class="timeline-item"><div class="timeline-date">2022 — 2024</div><div><h3>회사명 · 직무</h3><p>담당 업무와 프로젝트 경험을 입력하세요.</p></div></div>
-    <div class="timeline-item"><div class="timeline-date">2020 — 2022</div><div><h3>교육 / 활동</h3><p>개발자로 성장하기 위해 했던 경험을 입력하세요.</p></div></div>
-  </div>
-</section>
+<section id="experience" class="section-shell content-section"><div class="section-label">03 / EXPERIENCE</div><div class="section-heading-row"><h2>경력</h2><p>Data Engineer → Data Analytics Engineer</p></div><div class="experience-list">
+  <article class="experience-item"><div class="experience-head"><div><div class="project-type">2025.02 — PRESENT · DATA ANALYTICS ENGINEER</div><h3>티맵모빌리티주식회사</h3></div><a class="company-link" href="https://www.tmapmobility.com" target="_blank" rel="noreferrer">tmapmobility.com ↗</a></div><p class="company-summary">국내 1위 내비게이션 서비스 · MAU 1,500만 · 누적 가입자 2,500만</p><div class="work-grid"><div><h4>데이터 처리 최적화</h4><ul><li>일 수십억 건 규모 주행 데이터 배치의 Spark 파티셔닝 전략과 Upsert 로직을 재설계하여 처리 시간을 80% 단축했습니다. (5시간 → 1시간)</li><li>최적화 노하우를 사내 Spark 가이드라인으로 문서화해 팀 전체의 배치 성능 기준선을 수립했습니다.</li></ul></div><div><h4>데이터 웨어하우스 & 마트</h4><ul><li>주행·사용자·경로 등 핵심 도메인의 분석 친화적 스키마를 설계하고 Data Warehouse / Data Mart를 구축·운영했습니다.</li><li>외부 판매용 데이터셋 추출·제공 파이프라인을 구축해 데이터 상품화를 지원했습니다.</li></ul></div><div><h4>데이터 품질 & 거버넌스</h4><ul><li>스키마, Null·중복, 값 범위를 검증하는 Data Quality Check를 자동화하고 이상 알림 체계를 구축했습니다.</li><li>Data Lineage 조회용 MCP 도구 개발에 참여해 테이블 의존 관계 및 영향도 분석 시간을 단축했습니다.</li></ul></div><div><h4>개발 문화 개선</h4><ul><li>배치 파이프라인을 표준 템플릿 기반 Monorepo로 통합해 신규 개발 시간을 약 50% 단축했습니다.</li><li>Bitbucket → GitHub 마이그레이션과 CI/CD 기반 Jar 빌드 자동화를 주도했습니다.</li></ul></div></div></article>
+  <article class="experience-item"><div class="experience-head"><div><div class="project-type">2023.10 — 2025.02 · DATA ENGINEER</div><h3>㈜펫프렌즈</h3></div><a class="company-link" href="https://pet-friends.co.kr" target="_blank" rel="noreferrer">pet-friends.co.kr ↗</a></div><p class="company-summary">반려동물 커머스 · 2023년 기준 거래액 1,234억 · 매출 1,030억</p><div class="work-grid"><div><h4>데이터 아키텍처 & 거버넌스</h4><ul><li>Bronze/Silver/Gold 레이어 기반 메달리온 아키텍처를 논리·물리 구조에 적용하고 데이터 품질 관리 체계를 수립했습니다.</li><li>DataHub를 도입해 분석가·기획자의 데이터 셀프서비스 환경을 마련하고, Tableau Prep 기반 수동 전처리를 파이프라인으로 대체했습니다.</li></ul></div><div><h4>데이터 파이프라인 개발</h4><ul><li>AWS MWAA(Airflow) + EMR(Spark) 기반 ETL 파이프라인을 설계·구축했습니다.</li><li>Amplitude, Airbridge, Braze 등 3rd Party 데이터를 통합 수집하고 AWS Secrets Manager로 시크릿 관리를 중앙화했습니다.</li></ul></div><div><h4>클라우드 인프라 안정성</h4><ul><li>AWS DMS 기반 운영 DB와 분석 DB 간 실시간 동기화 파이프라인을 유지보수하며 데이터 정합성을 확보했습니다.</li><li>서버 모니터링과 리포팅 이미지 자동 전송 배치를 구축해 장애 감지·대응 시간을 단축했습니다.</li></ul></div></div><div class="article-links"><a href="https://medium.com/p/5c3f5b3b7448" target="_blank" rel="noreferrer">메달리온 아키텍처로 Tableau Prep 대체하기 ↗</a><a href="https://medium.com/p/a41dd543f64e" target="_blank" rel="noreferrer">AWS Secrets Manager 도입기 ↗</a></div></article>
+  <article class="experience-item"><div class="experience-head"><div><div class="project-type">2021.06 — 2023.10 · DATA ENGINEER</div><h3>카테노이드 주식회사</h3></div><a class="company-link" href="https://www.catenoid.net" target="_blank" rel="noreferrer">catenoid.net ↗</a></div><p class="company-summary">온라인 비디오 플랫폼 Kollus / Kollus Live · E-러닝 기업 고객 점유율 1위</p><div class="work-grid"><div><h4>통계 API & 대시보드</h4><ul><li>웹 로그 증감률, MAU, 고객사 비교 등 후처리 로직과 REST API를 개발하고 Elasticsearch 기반 실시간 집계·조회 기능을 구현했습니다.</li><li>맞춤형 콘텐츠 랭킹과 시계열 기반 서비스 에러율 예측 대시보드를 구축했습니다.</li></ul></div><div><h4>파이프라인 & 품질 관리</h4><ul><li>3rd Party CDN 통계 수집·처리·적재 파이프라인과 API 사용량 기반 히트맵 과금 로직을 개발했습니다.</li><li>자동 재처리·알림, 데이터 정확성 검증, Zeppelin·Tableau 리포트 자동화를 구현했습니다.</li></ul></div><div><h4>처리 모듈 최적화</h4><ul><li>레거시 통계 모듈을 재설계하고 Bulk Insert·Upsert를 적용해 처리 속도를 80% 향상했습니다. (50분 → 10분)</li><li>쿼리 튜닝과 로깅·모니터링 체계를 구축해 통계 결과의 정합성을 검증했습니다.</li></ul></div><div><h4>데이터 처리 인프라</h4><ul><li>온프레미스 Rancher 환경에 Airflow + Spark 클러스터를 설계·구축했습니다.</li><li>Docker 개발 환경 표준화, Rancher 배포 자동화, Zeppelin 기반 셀프서비스 조회 환경을 구현했습니다.</li></ul></div></div></article>
+</div></section>
 
-<section id="contact" class="contact-section">
-  <div class="section-shell contact-inner"><div class="section-label">04 / CONTACT</div><h2>함께 만들어볼까요?</h2><p>새로운 프로젝트, 협업, 혹은 가벼운 대화도 환영합니다.</p><a class="button button-primary" href="mailto:your-email@example.com">이메일 보내기 <span>↗</span></a></div>
-</section>
+<section id="skills" class="section-shell content-section"><div class="section-label">04 / STACK</div><div class="two-column"><h2>사용하는<br>도구와 기술</h2><div class="stack-list"><div><b>Languages</b><span>Python · SQL · Scala</span></div><div><b>Data Processing</b><span>Apache Spark · Apache Kafka</span></div><div><b>Orchestration</b><span>Apache Airflow · AWS MWAA</span></div><div><b>Platform</b><span>Databricks · Apache Zeppelin</span></div><div><b>Cloud / Infra</b><span>AWS (EMR, DMS, S3, MWAA) · Docker · Kubernetes · Terraform</span></div><div><b>Governance & Database</b><span>DataHub · MySQL · Redis · Elasticsearch · NoSQL</span></div><div><b>Others</b><span>FastAPI · ELK Stack · Tableau</span></div></div></div></section>
+
+<section id="open-source" class="section-shell content-section"><div class="section-label">05 / OPEN SOURCE & WRITING</div><div class="two-column"><h2>Apache Zeppelin<br>Committer</h2><div class="section-text"><p>2025년 8월부터 Apache Software Foundation의 Apache Zeppelin Committer로 활동하고 있습니다. 사내 Zeppelin 도입·운영 중 발견한 실사용 이슈를 업스트림에 기여하는 방식으로 오픈소스 활동을 이어가고 있습니다.</p><ul class="plain-list"><li>병합 PR 25건 이상 · 전체 컨트리뷰터 상위 30명 이내</li><li>Bug Fix · Test Infra · Refactoring · Docs 등 Full Contribution Cycle 참여</li><li>Chrome → Firefox Selenium 테스트 전환 및 Spark 등 의존 라이브러리 업그레이드</li></ul><p class="writing-note"><b>기술 블로그</b><br>누적 방문 60만+ · <a href="https://pinggoopark.tistory.com" target="_blank" rel="noreferrer">pinggoopark.tistory.com ↗</a></p><a class="text-link" href="https://github.com/apache/zeppelin" target="_blank" rel="noreferrer">Apache Zeppelin 살펴보기 <span>↗</span></a></div></div></section>
+
+<section id="education" class="section-shell content-section compact-section"><div class="section-label">06 / EDUCATION</div><div class="education-grid"><div><div class="project-type">2012.03 — 2018.02</div><h3>대진대학교 · 전기공학과</h3><p>PV+ESS의 개인 가정 전력사용 예측을 통한 효율적 사용 방안 연구</p></div><div><div class="project-type">2020.12 — 2021.05</div><h3>한양대학교 산학협력단 · 빅데이터 전문가 양성과정</h3><p>Kafka + Spark 실시간 파이프라인, 농산물 가격 예측 모델, 영상 객체 탐지·추적 프로젝트</p></div><div><div class="project-type">2017.11 — 2020.11</div><h3>한국오츠카전자 · 광학 하드웨어 엔지니어</h3><p>분광측정기·막두께 측정 시스템의 설치·운영·유지보수 및 측정 데이터 분석</p></div></div></section>
+
+<section id="contact" class="contact-section"><div class="section-shell contact-inner"><div class="section-label">07 / CONTACT</div><h2>데이터로 더 나은<br>결정을 만들어볼까요?</h2><p>새로운 프로젝트, 협업, 혹은 가벼운 대화도 환영합니다.</p><div class="contact-links"><a class="button button-primary" href="mailto:pgt0409@gmail.com">pgt0409@gmail.com <span>↗</span></a><a class="button button-dark-quiet" href="tel:010-8685-3426">010-8685-3426</a></div><div class="social-links"><a href="https://github.com/ParkGyeongTae" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/gyeongtae/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://pinggoopark.tistory.com" target="_blank" rel="noreferrer">Blog ↗</a><a href="mailto:gyeongtae@apache.org">gyeongtae@apache.org ↗</a></div></div></section>

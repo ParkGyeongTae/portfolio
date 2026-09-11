@@ -7,6 +7,8 @@
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
   {{ $style := resources.Get "css/main.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+  {{ $portfolioStyle := resources.Get "css/portfolio.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $portfolioStyle.RelPermalink }}">
 </head>
 <body>
   <header class="site-header">
