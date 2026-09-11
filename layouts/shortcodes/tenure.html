@@ -1,0 +1,18 @@
+{{- /* 재직 기간을 "N년 M개월" 형태로 계산한다.
+       from: 시작 연월 (예: "2025-02", 필수)
+       to:   종료 연월 (생략하면 빌드 시점 기준으로 계산해 재직 중인 경력을 항상 최신으로 유지한다) */ -}}
+{{- $from := time.AsTime (printf "%s-01" (.Get "from")) -}}
+{{- $to := now -}}
+{{- with .Get "to" -}}
+  {{- $to = time.AsTime (printf "%s-01" .) -}}
+{{- end -}}
+{{- $months := add (mul (sub (int ($to.Format "2006")) (int ($from.Format "2006"))) 12) (sub (int ($to.Format "1")) (int ($from.Format "1"))) -}}
+{{- $years := div $months 12 -}}
+{{- $rest := mod $months 12 -}}
+{{- if and (gt $years 0) (gt $rest 0) -}}
+  {{- printf "%d년 %d개월" $years $rest -}}
+{{- else if gt $years 0 -}}
+  {{- printf "%d년" $years -}}
+{{- else -}}
+  {{- printf "%d개월" $rest -}}
+{{- end -}}
