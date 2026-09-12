@@ -39,7 +39,8 @@ menu:
       url: "/#contact"
       weight: 60
     - name: "이력서"
+      identifier: "resume"
       url: "/resume/"
       weight: 70
       params:
-        class: "nav-cta"
+        class: "nav-resume"
