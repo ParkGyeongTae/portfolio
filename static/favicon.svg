@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>PT</title>
+  <rect width="64" height="64" rx="14" fill="#1c2923"/>
+  <path fill="#b8ef74" d="M14 17h17c7.2 0 11.5 3.8 11.5 9.8S38.2 36.5 31 36.5h-9.2V47H14V17Zm7.8 6.4v6.7h8.4c2.9 0 4.4-1.2 4.4-3.3s-1.5-3.4-4.4-3.4h-8.4Z"/>
+  <path fill="#f6f8f5" d="M39 17h11v6.4h-3.6V47h-7.8V23.4H39V17Z"/>
+</svg>
