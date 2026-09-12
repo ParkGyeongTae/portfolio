@@ -9,7 +9,7 @@ slug: "resume"
 **Data Analytics Engineer · Data Engineer**  
 `010-****-****`  
 [pgt0409@gmail.com](mailto:pgt0409@gmail.com) · [gyeongtae@apache.org](mailto:gyeongtae@apache.org)  
-[GitHub](https://github.com/ParkGyeongTae) · [LinkedIn](https://www.linkedin.com/in/gyeongtae/) · [Blog](https://pinggoopark.tistory.com)
+[GitHub](https://github.com/ParkGyeongTae) · [LinkedIn](https://www.linkedin.com/in/gyeongtae/) · [Blog](https://parkgyeongtae.github.io/dev-research/)
 
 ## 간단 소개
 
@@ -121,6 +121,12 @@ Apache Zeppelin Committer(ASF, 2025.08~)로 활동하며 사내 운영에서 발
 - 기존에는 적재 자체가 불가능했던 대용량 데이터 영역까지 처리 범위를 확대하여 통계 커버리지의 공백을 해소
 - 쿼리 튜닝과 모듈별 동작 상태 추적용 로깅·모니터링 체계를 구축하여 통계 결과의 정합성을 상시 검증
 
+#### 3rd Party CDN 통계 파이프라인과 사용량 기반 과금 로직 개발
+
+- 3rd Party CDN 통계를 수집·처리·적재하는 파이프라인을 개발하여 외부 트래픽 데이터를 사내 통계 체계에 통합
+- API 사용량 기반 히트맵 과금 로직을 개발하여 고객사별 사용량 산정 기준을 마련
+- 실패 작업 자동 재처리·알림과 데이터 정확성 검증 체계를 구현하여 통계 파이프라인의 안정성을 확보
+
 #### 온프레미스 Airflow + Spark 클러스터 구축과 리포팅·배포 자동화
 
 - 온프레미스(Rancher) 환경에 Airflow + Spark 클러스터를 직접 설계·구축하여 팀의 대용량 데이터 처리 기반을 마련
@@ -138,6 +144,57 @@ Apache Zeppelin Committer(ASF, 2025.08~)로 활동하며 사내 운영에서 발
 - 노트북 파일 경로의 URL 인코딩 이슈 등 사내 운영 환경에서 직접 마주친 버그를 리포트하고 수정
 - Selenium 테스트 환경을 Chrome에서 Firefox로 전환하고 Spark 등 의존 라이브러리를 업그레이드하여 CI 안정성을 개선
 - 코드 리팩터링, 테스트 커버리지 확대, 문서 개선으로 프로젝트 유지보수성 향상에 기여
+
+## 프로젝트
+
+### 주식 리서치 노트 · 개인 프로젝트
+
+`2026.08 ~ 현재`
+
+[stock-research](https://parkgyeongtae.github.io/stock-research/)
+
+- 미국 상장 기업·섹터 리서치를 개요·재무·밸류에이션·투자결론 등 동일 템플릿으로 정규화하여 기업 간 비교가 가능한 구조를 설계하고 300여 개 문서를 운영
+- 주가·환율·금리 등 시장 데이터 수집과 차트 생성을 자동화하고 LLM 기반 문서 생성 워크플로를 구성하여 리서치 작성 과정을 파이프라인화
+- 자동 생성된 결과를 직접 검토·보완하는 방식으로 문서 품질을 관리
+
+### 오픈소스 컨트리뷰션 아카데미 (OSSCA) · Apache Zeppelin
+
+`2024.07 ~ 2025.11`
+
+- 2025 오픈소스 컨트리뷰션 아카데미 Apache Zeppelin 멘토 (2025.07 ~ 2025.11)
+- 2024 오픈소스 컨트리뷰션 아카데미 Apache Zeppelin 멘티 (2024.07 ~ 2024.11)
+
+### 카카오임팩트 · 테크포임팩트
+
+`2025.07 ~ 2025.12`
+
+- 이을 LAB(협동조합 청풍)과 협업하여 강화도 관계인구를 연결하는 AR 게임 프로젝트에 참여
+
+### 가짜연구소 (Pseudo Lab) · Lang2SQL
+
+`2025.03 ~ 2025.11`
+
+- 10기(2025.03 ~ 2025.06)·11기(2025.08 ~ 2025.11)에 참여하여 자연어를 SQL로 변환하는 오픈소스 [Lang2SQL](https://github.com/CausalInferenceLab/Lang2SQL) 개발에 기여
+
+### 클라우드클럽 (CloudClub)
+
+`2025.03 ~ 2025.07`
+
+- 7기 참여
+
+## 수상 경력
+
+### 2025 오픈소스 컨트리뷰션 대상 · 과학기술정보통신부
+
+`2025.12`
+
+- Apache Zeppelin 프로젝트로 2025 오픈소스 컨트리뷰션 아카데미 대상 수상
+
+### 장학증서 · 한국전력공사
+
+`2017.02`
+
+- 전국 전기공학 분야 성적우수 장학생 선발 (대진대학교)
 
 ## 학력
 
