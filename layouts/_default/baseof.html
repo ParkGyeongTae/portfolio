@@ -16,8 +16,10 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="{{ "" | relURL }}">PT<span>.</span></a>
-    <nav>{{ range .Site.Menus.main }}<a href="{{ .URL | relURL }}">{{ .Name }}</a>{{ end }}</nav>
+    <div class="header-inner section-shell">
+      <a class="brand" href="{{ "" | relURL }}">PT<span>.</span></a>
+      <nav>{{ range .Site.Menus.main }}<a href="{{ .URL | relURL }}"{{ with .Params.class }} class="{{ . }}"{{ end }}>{{ .Name }}</a>{{ end }}</nav>
+    </div>
   </header>
   <main>{{ block "main" . }}{{ end }}</main>
   <footer class="site-footer section-shell"><span>© {{ now.Year }} 박경태</span><span>Built with Hugo</span></footer>

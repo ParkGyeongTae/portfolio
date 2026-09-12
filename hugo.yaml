@@ -17,18 +17,29 @@ menu:
     - name: "소개"
       url: "/#about"
       weight: 10
+      params:
+        class: "nav-optional"
     - name: "성과"
       url: "/#achievements"
       weight: 20
+      params:
+        class: "nav-optional"
     - name: "경력"
       url: "/#experience"
       weight: 30
-    - name: "이력서"
-      url: "/resume/"
-      weight: 35
+    - name: "프로젝트"
+      url: "/#projects"
+      weight: 40
     - name: "기술"
       url: "/#skills"
-      weight: 40
+      weight: 50
+      params:
+        class: "nav-optional"
     - name: "연락처"
       url: "/#contact"
-      weight: 50
+      weight: 60
+    - name: "이력서"
+      url: "/resume/"
+      weight: 70
+      params:
+        class: "nav-cta"
