@@ -27,14 +27,14 @@ menu:
     - name: "경력"
       url: "/#experience"
       weight: 30
-    - name: "프로젝트"
-      url: "/#projects"
-      weight: 40
     - name: "기술"
       url: "/#skills"
-      weight: 50
+      weight: 40
       params:
         class: "nav-optional"
+    - name: "프로젝트"
+      url: "/#projects"
+      weight: 50
     - name: "연락처"
       url: "/#contact"
       weight: 60
