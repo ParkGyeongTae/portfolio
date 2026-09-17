@@ -14,8 +14,8 @@ markup:
 
 menu:
   main:
-    - name: "소개"
-      url: "/#about"
+    - name: "프로필"
+      url: "/#profile"
       weight: 10
       params:
         class: "nav-optional"
@@ -32,8 +32,8 @@ menu:
       weight: 40
       params:
         class: "nav-optional"
-    - name: "프로젝트"
-      url: "/#projects"
+    - name: "증거"
+      url: "/#proof"
       weight: 50
     - name: "연락처"
       url: "/#contact"
